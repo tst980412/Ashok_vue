@@ -1,0 +1,17 @@
+{
+  "name": "Ashok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startapi": " cd ./api  && npm run start && cd ../",
+    "stopapi": " cd ./api  && npm run stop ",
+    "vue": " cd ./Ashok  && npm run dev ",
+    "api": " cd ./api  && npm run dev ",
+    "startprogram": "cd ./Ashok && npm run dev",
+    "start": "npm run startapi && npm run startprogram",
+    "install": "cd ./api  && npm i && cd ../ && cd ./Ashok && npm i"
+  },
+  "author": "",
+  "license": "ISC"
+}
